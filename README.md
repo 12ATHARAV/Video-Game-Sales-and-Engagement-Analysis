@@ -20,7 +20,6 @@ By combining these datasets, the analysis identifies which factors (like critica
 * **`app.py`**: A Streamlit web application that provides a UI to interact with the database.
 * **`videoGames.pbix`**: Interactive Power BI dashboard for executive-level reporting.
 * **`Data/`**: Contains the cleaned datasets for both Sales and Engagement metrics.
-* **`Video Game Sales and Engagement Analysis.docx`**: Detailed project report and methodology.
 
 ---
 
@@ -40,5 +39,5 @@ Execute the schema and queries in `video_games.sql` to create the structured tab
 ### 2. Streamlit Web Dashboard
 Launch the interactive portal to run live SQL queries against the dataset:
 ```bash
-pip install streamlit pandas psycopg2
+pip install requirements.txt
 streamlit run app.py
